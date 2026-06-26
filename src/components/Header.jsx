@@ -77,7 +77,7 @@ function Header() {
 
       <div className="bg-[#1a2a3a]/90 backdrop-blur-sm shadow-sm  top-0 z-50 w-full">
         <div className="container max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
+          <div className="flex justify-between items-center py-1">
             {/*logo*/}
             <Link to="/" className="flex-shrink-0">
               <img
@@ -114,7 +114,7 @@ function Header() {
                 Project
               </NavLink>
               <NavLink
-                to="project"
+                to="Services"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
@@ -132,7 +132,7 @@ function Header() {
             </nav>
             <Link
               to="/contact"
-              className="bg-[#FF5F13] text-white px-6 py-2.5 rounded hover:bg-[#e0550f] transition-colors font-barlow"
+              className="hidden lg:inline-block bg-[#FF5F13] text-white px-6 py-2.5 rounded hover:bg-[#e0550f] transition-colors font-barlow"
             >
               Contact Now
             </Link>

@@ -127,9 +127,9 @@ function Projects() {
         {/*heading and filters*/}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 mb-12">
           {/*heading*/}
-          <div className="relative" data-aos="fade-up">
+          <div className="relative " data-aos="fade-up">
             <div className="relative z-10 inline-block pr-5">
-              <h2 className="text-4xl md:text-5xl font-extrabold text-[#0B1C3A] font-teko">
+              <h2 className="text-6xl md:text-7xl font-extrabold text-[#0B1C3A] font-teko">
                 Our Project
               </h2>
             </div>

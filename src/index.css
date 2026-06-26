@@ -15,6 +15,46 @@ body {
   top: 0 !important;
   z-index: 50 !important;
 }
+.liquid-fill {
+  background: linear-gradient(to top, #ff5f13 50%, transparent 50%);
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: liquidMove 4s ease-in-out infinite;
+}
+
+@keyframes liquidMove {
+  0%,
+  100% {
+    background-position: 0% 50%; /* fully neeche (text empty) */
+  }
+  50% {
+    background-position: 0% 0%; /* fully upar (text filled) */
+  }
+}
+
+@keyframes vanishReveal {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-vanish-reveal {
+  animation: vanishReveal 10s ease-in-out infinite; /* 20s = 1 minute mein 3 baar */
+}
 
 /* .swiper-button-next,
 .swiper-button-prev {

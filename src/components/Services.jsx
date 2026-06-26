@@ -44,16 +44,16 @@ function Services() {
     <section className="py-16 md:py-20 lg:py-24 bg-white">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/*heading*/}
-        <div className="relative mb-28  " data-aos="fade-up ">
-          <div className="relative z-10 inline-block pr-5 top-10 my-20">
+        <div className="relative mb-20  " data-aos="fade-up ">
+          <div className="relative z-10 inline-block pr-5 top-0 my-0">
             <h2 className="text-6xl  md:text-7xl font-extrabold text-[#0b1c3a] font-teko   ">
               {" "}
               Our Services
             </h2>
           </div>
           <span
-            className="absolute top-[-8px] left-0 text-[120px] md:text-[150px] font-extrabold text-white     
-           [-webkit-text-stroke:0.3px_#d0d9e8] select-none pointer-events-none z-0 whitespace-nowrap font-barlow"
+            className="absolute -top-22 left-0 text-[120px] md:text-[150px] font-extrabold text-white     
+           [-webkit-text-stroke:0.3px_#d0d9e8] select-none pointer-events-none z-0 whitespace-nowrap font-teko"
           >
             Services
           </span>
@@ -103,7 +103,7 @@ function Services() {
                     group-hover/link:bg-[#f57c00] group-hover/link:text-white"
                   >
                     {" "}
-                    <FaPlus size={12} />
+                    <FaPlus size={14} />
                   </span>
                 </Link>
               </div>

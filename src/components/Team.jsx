@@ -37,14 +37,14 @@ function Team() {
   ];
 
   return (
-    <section className="py-16 md:py-20 lg:py-24 bg-white">
+    <section className=" bg-white">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/*heading*/}
         <div
           className="relative mb-14 text-center lg:text-left"
           data-aos="fade-up"
         >
-          <div className="relative z-10 inline-block pr-5">
+          <div className="relative z-10 inline-block pr-5 ">
             <h2 className="text-5xl md:text-6xl font-extrabold text-[#0B1C3A] font-teko">
               Our Team
             </h2>
@@ -58,7 +58,7 @@ function Team() {
         </div>
         {/*team card*/}
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-14">
           {teamData.map((member) => (
             <div
               key={member.id}

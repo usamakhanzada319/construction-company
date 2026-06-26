@@ -15,7 +15,7 @@ function Counters() {
     {
       id: 1,
       number: 34,
-      label: "MACHINERY ",
+      label: "MACHINERY",
       subLabel: "Tools",
       delay: 100,
     },
@@ -37,7 +37,7 @@ function Counters() {
   ];
 
   return (
-    <section className="relative bg-[#0B1C3A] py-20 mb-[300px] md:mb-[400px] lg:mb-[500px]">
+    <section className="relative bg-[#0B1C3A] py-20 mb-76 sm:mb-24 md:mb-62 lg:mb-48">
       {/* Orange Div - Half Blue, Half White */}
       <div className="absolute  bg-[#f57c00] max-w-[1400px] w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] left-1/2 -translate-x-1/2 -translate-y-6 sm:-translate-y-8 md:-translate-y-10 lg:-translate-y-12 ">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">

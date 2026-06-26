@@ -37,7 +37,7 @@ function Team() {
   ];
 
   return (
-    <section className=" bg-white">
+    <section className=" w-full bg-white overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/*heading*/}
         <div

@@ -122,7 +122,7 @@ function Projects() {
         });
 
   return (
-    <section className="py-16 md:py-20 lg:py-24">
+    <section className="w-full bg-[#f8fafc] py-16 md:py-20 lg:py-24 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/*heading and filters*/}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 mb-12">

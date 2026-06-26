@@ -11,7 +11,7 @@ function Contact() {
     });
   }, []);
   return (
-    <section className="py-16 md:py-20 lg:py-24 bg-[#0B1C3A]">
+    <section className="w-full bg-[#0B1C3A] py-16 md:py-20 lg:py-24 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 md:px-6 lg:px-8 ">
         <div className="max-w-3xl mx-auto lg:mx-0 lg:ml-20 xl:ml-28 ">
           <div className="text-center lg:text-left" data-aos="fade-up">

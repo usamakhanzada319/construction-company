@@ -19,7 +19,7 @@ function Header() {
     "text-white font-medium font-barlow hover:text-[#FF5F13] transition-colors";
 
   return (
-    <header className="  w-full font-barlow fixed top-0 left-0 right-0 z-50">
+    <header className="  w-full font-barlow fixed top-0 left-0 right-0 z-50 overflow-hidden">
       {/*top bar*/}
       <div className="hidden lg:block bg-[#1a2a3a]/90 text-white border-b border-white/10 py-4">
         {/**/}

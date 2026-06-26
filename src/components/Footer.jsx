@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-[#1A1A1A] text-gray-400 font-barlow">
+    <footer className="w-full bg-[#1a1a1a] text-gray-400 font-barlow overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
         {/*main footer grid*/}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">

@@ -41,7 +41,7 @@ function Services() {
   }, []);
 
   return (
-    <section className="py-16 md:py-20 lg:py-24 bg-white">
+    <section className="w-full bg-white py-16 md:py-20 lg:py-24 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/*heading*/}
         <div className="relative mb-20  " data-aos="fade-up ">

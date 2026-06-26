@@ -35,7 +35,7 @@ function Blog() {
     },
   ];
   return (
-    <section className="py-16 md:py-20 lg:py-24 bg-white">
+    <section className="py-16 md:py-20 lg:py-24 bg-white overflow-hidden">
       <div className="max-w[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/*heading*/}
         <div
@@ -63,7 +63,7 @@ function Blog() {
               data-aos-delay={post.delay}
             >
               {/*Image with Date badge */}
-              <div className="relative overflow-hidden bg-[#F2F6FC]">
+              <div className="w-full bg-white py-16 md:py-20 lg:py-24">
                 <img
                   src={post.image}
                   alt={post.title}

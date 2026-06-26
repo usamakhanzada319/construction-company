@@ -49,8 +49,9 @@ function Hero() {
               </div>
 
               {/* Content - Staggered Vanish/Reveal */}
-              <div className="relative z-10 flex items-center h-full max-w-[1440px] mx-auto pt-16 sm:pt-20 lg:pt-24 px-4 sm:px-6 lg:px-8">
-                <div className="max-w-3xl text-white">
+              <div className="relative z-10 flex items-center h-full w-full max-w-[1440px] mx-auto pt-16 sm:pt-20 lg:pt-24 px-4 sm:px-6 lg:px-8">
+                {" "}
+                <div className="max-w-full sm:max-w-3xl lg:max-w-4xl xl:max-w-5xl text-white">
                   {/* Badge - Delay 0s */}
                   <div className="flex items-center mb-4 mt-8 sm:mt-10 lg:mt-12 animate-vanish-reveal">
                     <div className="w-6 h-0.5 bg-[#FF5F13]"></div>

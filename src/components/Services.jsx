@@ -46,7 +46,7 @@ function Services() {
         {/*heading*/}
         <div className="relative mb-20  " data-aos="fade-up ">
           <div className="relative z-10 inline-block pr-5 top-0 my-0">
-            <h2 className="text-6xl  md:text-7xl font-extrabold text-[#0b1c3a] font-teko   ">
+            <h2 className="text-5xl  md:text-7xl font-extrabold text-[#0b1c3a] font-teko   ">
               {" "}
               Our Services
             </h2>

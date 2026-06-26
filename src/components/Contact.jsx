@@ -11,14 +11,14 @@ function Contact() {
     });
   }, []);
   return (
-    <section className="w-full bg-[#0B1C3A] py-16 md:py-20 lg:py-24 overflow-hidden">
+    <section className="w-full bg-[#0B1C3A] py-16 md:py-20 lg:py-24 ">
       <div className="max-w-[1440px] mx-auto px-4 md:px-6 lg:px-8 ">
         <div className="max-w-3xl mx-auto lg:mx-0 lg:ml-20 xl:ml-28 ">
           <div className="text-center lg:text-left" data-aos="fade-up">
             {/*heading*/}
             <div className="relative mb-10 inline-block lg:inline-block">
               <div className="relative z-10 inline-block pr-5">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white font-teko">
+                <h2 className="text-5xl md:text-4xl lg:text-5xl font-extrabold text-white font-teko">
                   Let's talk with us
                 </h2>
               </div>

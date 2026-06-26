@@ -25,10 +25,7 @@ function Testimonial() {
     <section className="w-full bg-[#0B1C3A] py-16 md:py-20 lg:py-24 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/*heading*/}
-        <div
-          className="relative mb-14 text-center lg:text-left"
-          data-aos="fade-up"
-        >
+        <div className="relative mb-14 text-left" data-aos="fade-up">
           <div className="relative z-10 inline-block pr-5">
             <h2 className="text-5xl md:text-6xl font-extrabold text-white font-teko">
               Testimonial

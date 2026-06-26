@@ -21,7 +21,7 @@ function About() {
             {/*heading*/}
             <div className="relative mb-10">
               <div className="relative z-10 inline-block pr-5">
-                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[82px] font-extrabold text-[#0B1C3A] font-teko whitespace-nowrap">
+                <h2 className="text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[82px] font-extrabold text-[#0B1C3A] font-teko whitespace-nowrap">
                   WHO WE ARE
                 </h2>
               </div>

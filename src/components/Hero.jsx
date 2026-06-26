@@ -49,7 +49,7 @@ function Hero() {
               </div>
 
               {/* Content - Staggered Vanish/Reveal */}
-              <div className="relative z-10 flex items-center h-full w-full max-w-[1440px] mx-auto pt-16 sm:pt-20 lg:pt-24 px-4 sm:px-6 lg:px-8">
+              <div className="relative z-10 flex items-center h-full w-full max-w-[1440px] mx-auto pt-16 sm:pt-20 lg:pt-24 px-0 sm:px-5 lg:px-8">
                 {" "}
                 <div className="max-w-full sm:max-w-3xl lg:max-w-4xl xl:max-w-5xl text-white">
                   {/* Badge - Delay 0s */}
@@ -62,7 +62,7 @@ function Hero() {
 
                   {/* Main Heading - Delay 0.5s */}
                   <h1
-                    className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[150px] font-barlow font-extrabold leading-tight text-[#FF5F13] animate-vanish-reveal"
+                    className="text-5xl sm:text-6xl md:text-5xl lg:text-8xl xl:text-[150px] font-barlow font-extrabold leading-tight text-[#FF5F13] animate-vanish-reveal "
                     style={{ animationDelay: "0.5s" }}
                   >
                     {slide.heading}

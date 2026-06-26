@@ -26,7 +26,6 @@ function Counters() {
       subLabel: "Tools",
       delay: 200,
     },
-
     {
       id: 3,
       number: 8,
@@ -37,11 +36,12 @@ function Counters() {
   ];
 
   return (
-    <section className="relative w-full bg-[#0B1C3A] py-20 mb-16 sm:mb-24 md:mb-32 lg:mb-48 overflow-hidden">
-      {/* Orange Div - Half Blue, Half White */}
-      <div className="absolute  bg-[#f57c00] max-w-[1400px] w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] left-1/2 -translate-x-1/2 -translate-y-6 sm:-translate-y-8 md:-translate-y-10 lg:-translate-y-12 ">
+    // ✅ Fix: mb-0 karo taake overlap na ho
+    <section className="relative w-full bg-[#0B1C3A] py-20 ">
+      {/* Orange Div */}
+      <div className="absolute bg-[#f57c00] max-w-[1400px] w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] left-1/2 -translate-x-1/2 -translate-y-6 sm:-translate-y-8 md:-translate-y-10 lg:-translate-y-12">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 py-12 md:py-12 lg:py-12 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 py-12 md:py-12 lg:py-12">
             {CountersData.map((counter) => (
               <div
                 key={counter.id}
@@ -49,14 +49,12 @@ function Counters() {
                 data-aos="fade-up"
                 data-aos-delay={counter.delay}
               >
-                {/* MACHINERY - Top */}
-                <h4 className="text-white ml-0 sm:ml-8 md:ml-12 lg:ml-16 font-barlow font-thin text-base tracking-[0.1em] mb-0 ">
+                <h4 className="text-white ml-0 sm:ml-8 md:ml-12 lg:ml-14 font-barlow font-thin text-base tracking-[0.1em] mb-0">
                   {counter.label}
                 </h4>
 
-                {/* Number + Tools - Neechay */}
                 <div className="flex items-center justify-center gap-2 sm:gap-3">
-                  <span className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-extrabold font-teko text-white">
+                  <span className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-extrabold font-teko text-white">
                     <CounterNumber end={counter.number} duration={2000} />
                   </span>
                   <span className="text-white font-barlow text-2xl sm:text-3xl font-semibold uppercase tracking-wider">
@@ -74,9 +72,10 @@ function Counters() {
 
 function CounterNumber({ end, duration = 2000 }) {
   const [count, setCount] = useState(0);
+
   useEffect(() => {
     let startTime;
-    const startValue = 0;
+    let animationId;
 
     const animateCount = (timestamp) => {
       if (!startTime) startTime = timestamp;
@@ -85,24 +84,20 @@ function CounterNumber({ end, duration = 2000 }) {
       setCount(currentCount);
 
       if (progress < 1) {
-        requestAnimationFrame(animateCount);
+        animationId = requestAnimationFrame(animateCount);
       } else {
         setCount(end);
       }
     };
 
-    {
-      /*start animation*/
-    }
-    const animationId = requestAnimationFrame(animateCount);
-    {
-      /*CleanUp*/
-    }
+    animationId = requestAnimationFrame(animateCount);
+
     return () => {
       cancelAnimationFrame(animationId);
       setCount(0);
     };
   }, [end, duration]);
+
   return <>{count}</>;
 }
 

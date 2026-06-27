@@ -84,12 +84,11 @@ function Hero() {
                       {slide.stockText}
                     </h2>
 
-                    {/* Layer 2: Orange Liquid Fill (Wave Animation) */}
-                    <h2 className="absolute top-0 left-0 text-7xl sm:text-8xl md:text-9xl lg:text-[130px] xl:text-[160px] font-barlow font-bold liquid-fill leading-none">
+                    {/* Layer 2: Orange Wave (Clip-Path Animation) */}
+                    <h2 className="absolute top-0 left-0 text-7xl sm:text-8xl md:text-9xl lg:text-[130px] xl:text-[160px] font-barlow font-bold text-[#ff5f13] leading-none wave-clip">
                       {slide.stockText}
                     </h2>
                   </div>
-
                   {/* CTA Button - Delay 1.5s */}
                   <div
                     className="flex items-center mt-9 animate-vanish-reveal"

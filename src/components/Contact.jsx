@@ -16,17 +16,13 @@ function Contact() {
         <div className="max-w-3xl mx-auto lg:mx-0 lg:ml-20 xl:ml-28 ">
           <div className="text-center lg:text-left" data-aos="fade-up">
             {/*heading*/}
-            <div className="relative mb-10 inline-block lg:inline-block">
-              <div className="relative z-10 inline-block pr-5">
-                <h2 className="text-5xl md:text-4xl lg:text-5xl font-extrabold text-white font-teko">
+            <div className="relative mb-6 sm:mb-8 md:mb-10 inline-block">
+              <div className="relative z-10 inline-block pr-3 sm:pr-5">
+                <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white font-teko">
                   Let's talk with us
                 </h2>
               </div>
-              <span
-                className="absolute top-[-28px] md:top-[-56px] lg:top-[-58px] left-0 text-[75px] sm:text-[85px] md:text-[95px] lg:text-[105px] font-extrabold text-transparent     
-                         [-webkit-text-stroke:1px_rgba(255,255,255,0.3)] select-none pointer-events-none z-0 whitespace-nowrap font-teko"
-              >
-                {" "}
+              <span className="absolute top-[-10px] xs:top-[-22px] sm:top-[-28px] md:top-[-36px] lg:top-[-44px] xl:top-[-52px] left-0 text-[32px] xs:text-[45px] sm:text-[60px] md:text-[75px] lg:text-[95px] xl:text-[115px] font-extrabold text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.3)] select-none pointer-events-none z-0 whitespace-nowrap font-teko">
                 Let's chat
               </span>
             </div>

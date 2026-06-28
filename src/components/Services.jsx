@@ -46,15 +46,12 @@ function Services() {
         {/*heading*/}
         <div className="relative mb-20  " data-aos="fade-up ">
           <div className="relative z-10 inline-block pr-5 top-0 my-0">
-            <h2 className="text-5xl  md:text-7xl font-extrabold text-[#0b1c3a] font-teko   ">
+            <h2 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold text-[#0b1c3a] font-teko">
               {" "}
               Our Services
             </h2>
           </div>
-          <span
-            className="absolute -top-22 left-0 text-[120px] md:text-[150px] font-extrabold text-white     
-           [-webkit-text-stroke:0.3px_#d0d9e8] select-none pointer-events-none z-0 whitespace-nowrap font-teko"
-          >
+          <span className="absolute top-[-6px] xs:top-[-8px] sm:top-[-10px] md:top-[-42px] lg:top-[-66px] left-0 text-[40px] xs:text-[50px] sm:text-[70px] md:text-[100px] lg:text-[130px] xl:text-[160px] font-extrabold text-white [-webkit-text-stroke:0.3px_#d0d9e8] select-none pointer-events-none z-0 whitespace-nowrap font-teko">
             Services
           </span>
         </div>

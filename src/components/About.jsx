@@ -26,7 +26,7 @@ function About() {
                 </h2>
               </div>
               <span
-                className="absolute bottom-[0px] left-0 text-[70px] md:text-[82px] font-extrabold text-white 
+                className="absolute bottom-[-24px] left-0 text-[70px] md:text-[82px] font-extrabold text-white 
               [-webkit-text-stroke:0.2px_#d0d9e8] select-none pointer-events-none z-0 whitespace-nowrap font-teko"
               >
                 About us

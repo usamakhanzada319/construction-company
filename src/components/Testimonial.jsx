@@ -25,16 +25,16 @@ function Testimonial() {
     <section className="w-full bg-[#0B1C3A] py-16 md:py-20 lg:py-24 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/*heading*/}
-        <div className="relative mb-14 text-left" data-aos="fade-up">
-          <div className="relative z-10 inline-block pr-5">
-            <h2 className="text-5xl md:text-6xl font-extrabold text-white font-teko">
+        <div
+          className="relative mb-8 sm:mb-10 md:mb-14 text-left"
+          data-aos="fade-up"
+        >
+          <div className="relative z-10 inline-block pr-3 sm:pr-5">
+            <h2 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white font-teko">
               Testimonial
             </h2>
           </div>
-          <span
-            className="absolute -top-12 left-0 text-[80px] md:text-[90px] lg:text-[100px] font-extrabold text-transparent/50
-                 [-webkit-text-stroke:0.4px_#D0D9E8] select-none pointer-events-none z-0 whitespace-nowrap font-teko "
-          >
+          <span className="absolute top-[-8px] xs:top-[-20px] sm:top-[-24px] md:top-[-32px] lg:top-[-40px] left-0 text-[32px] xs:text-[45px] sm:text-[60px] md:text-[80px] lg:text-[100px] font-extrabold text-transparent/50 [-webkit-text-stroke:0.4px_#D0D9E8] select-none pointer-events-none z-0 whitespace-nowrap font-teko">
             Feedback
           </span>
         </div>

@@ -41,13 +41,16 @@ function Blog() {
       {/* ✅ Fix 2: max-w-[1440px] */}
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-        <div className="relative mb-14 text-left" data-aos="fade-up">
-          <div className="relative z-10 inline-block bg-white pr-5">
-            <h2 className="text-5xl md:text-5xl font-teko font-extrabold text-[#0B1C3A]">
+        <div
+          className="relative mb-8 sm:mb-10 md:mb-14 text-left"
+          data-aos="fade-up"
+        >
+          <div className="relative z-10 inline-block bg-white pr-3 sm:pr-5">
+            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-teko font-extrabold text-[#0B1C3A]">
               Latest News
             </h2>
           </div>
-          <span className="absolute top-[-28px] left-0 text-[60px] md:text-[70px] lg:text-[80px] text-white font-extrabold [-webkit-text-stroke:0.3px_#d0d9e8] select-none pointer-events-none z-0 whitespace-nowrap font-teko">
+          <span className="absolute top-[-16px] xs:top-[-20px] sm:top-[-24px] md:top-[-28px] lg:top-[-32px] left-0 text-[32px] xs:text-[45px] sm:text-[55px] md:text-[65px] lg:text-[80px] text-white font-extrabold [-webkit-text-stroke:0.3px_#d0d9e8] select-none pointer-events-none z-0 whitespace-nowrap font-teko">
             Our Blog
           </span>
         </div>

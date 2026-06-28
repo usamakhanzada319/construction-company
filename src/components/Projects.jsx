@@ -134,7 +134,7 @@ function Projects() {
               </h2>
             </div>
             <span
-              className="absolute top-[-20px] md:top-[-28px] lg:top-[-32px] left-0 text-[40px] md:text-[60px] lg:text-[80px] font-extrabold text-white     
+              className="absolute top-[-10px] md:top-[-28px] lg:top-[-32px] left-0 text-[40px] md:text-[60px] lg:text-[80px] font-extrabold text-white     
                [-webkit-text-stroke:0.2px_#d0d9e8] select-none pointer-events-none z-0 whitespace-nowrap font-teko"
             >
               Gallery
